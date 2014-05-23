@@ -21,12 +21,21 @@ public class DataBaseConnection {
 //		String password = "";
 //		String connectionString = address + portNumber + databaseName;
 //		
+//		Connection connection = null;
+//		String address = "jdbc:mysql://localhost:";
+//		String portNumber = "8889";
+//		String databaseName = "/cabbagedb";
+//		String username = "root";
+//		String password = "root";
+//		String connectionString = address + portNumber + databaseName;
+		
+		
 		Connection connection = null;
 		String address = "jdbc:mysql://localhost:";
-		String portNumber = "8889";
-		String databaseName = "/cabbagedb";
+		String portNumber = "3306";
+		String databaseName = "/testdatbase";
 		String username = "root";
-		String password = "root";
+		String password = "";
 		String connectionString = address + portNumber + databaseName;
 
 		try {
