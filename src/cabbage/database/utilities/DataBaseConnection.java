@@ -33,9 +33,9 @@ public class DataBaseConnection {
 		Connection connection = null;
 		String address = "jdbc:mysql://localhost:";
 		String portNumber = "3306";
-		String databaseName = "/testdatbase";
+		String databaseName = "/testdatabase";
 		String username = "root";
-		String password = "";
+		String password = "password";
 		String connectionString = address + portNumber + databaseName;
 
 		try {
@@ -64,7 +64,7 @@ public class DataBaseConnection {
 		} else {
 			System.out.println("Failed to make connection!");
 		}
-
+		System.out.println("SUCCESS");
 		return connection;
 
 	}
